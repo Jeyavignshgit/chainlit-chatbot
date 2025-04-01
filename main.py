@@ -10,7 +10,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Set the API Key
-openai.api_key ="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"
+openai.api_key =""
 
 @cl.on_message
 async def handle_message(message: cl.Message):
